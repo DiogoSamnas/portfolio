@@ -9,4 +9,18 @@
 }
 #navbar .nav-link{
     cursor: pointer;
+    position: relative;
+}
+#navbar .nav-link::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--text-dark);
+    transition: all ease-in-out .3s;
+}
+#navbar .nav-link:hover:after{
+    width: 100%;
 }

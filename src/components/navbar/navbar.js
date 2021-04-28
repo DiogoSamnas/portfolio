@@ -4,11 +4,11 @@ import Logo from '../../svg/diogo.svg';
 
 function Navbar() {
     return (
-        <div id="navbar" className="w-100 p-0 px-lg-5 position-fixed fixed-top top-0 py-3 px-lg-5">
+        <div id="navbar" className="w-100 position-fixed fixed-top top-0 py-3 px-lg-5">
             <div className="nav navbar container justify-content-between align-items-center">
                 <div className="logo d-flex align-items-center">
                     <img className="logo me-3" src={Logo} alt="Diogo Santos" />
-                    <Link to="landing" smooth={true} className="nav-link">
+                    <Link to="landing" smooth={true} className="nav-link px-1">
                         <p>Diogo Santos</p>
                     </Link>
                 </div>
@@ -16,17 +16,17 @@ function Navbar() {
 
                 <ul className="nav">
                     <li className="nav-item ms-4">
-                        <Link to="about" smooth={true} className="nav-link">
+                        <Link to="about" smooth={true} className="nav-link px-2">
                             Sobre
                         </Link>
                     </li>
-                    <li className="nav-item ms-4">
-                        <Link to="experience" smooth={true} className="nav-link">
+                    {/* <li className="nav-item ms-4">
+                        <Link to="experience" smooth={true} className="nav-link px-2">
                             Experiência
                         </Link>
-                    </li>
+                    </li> */}
                     <li className="nav-item ms-4">
-                        <Link to="projects" smooth={true} className="nav-link">
+                        <Link to="projects" smooth={true} className="nav-link px-2">
                             Projetos
                         </Link>
                     </li>
