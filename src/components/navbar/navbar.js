@@ -4,8 +4,8 @@ import Logo from '../../svg/diogo.svg';
 
 function Navbar() {
     return (
-        <div id="navbar" className="container p-0 px-lg-5">
-            <div className="nav navbar container justify-content-between align-items-center position-fixed fixed-top top-0 py-3 px-lg-5">
+        <div id="navbar" className="w-100 p-0 px-lg-5 position-fixed fixed-top top-0 py-3 px-lg-5">
+            <div className="nav navbar container justify-content-between align-items-center">
                 <div className="logo d-flex align-items-center">
                     <img className="logo me-3" src={Logo} alt="Diogo Santos" />
                     <Link to="landing" smooth={true} className="nav-link">

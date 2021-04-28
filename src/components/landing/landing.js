@@ -2,7 +2,7 @@ import "./landing.css";
 
 function Landing() {
     return (
-        <div id="landing" data-aos="fade-right">
+        <div id="landing" data-aos="slide-right">
             <div className="row p-0 m-0">
                 <div className="col-6 mx-0">
                     <h6>Oi, meu nome é</h6>

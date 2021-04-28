@@ -1,0 +1,21 @@
+#loading .logo{
+    width: 10rem;
+    height: 10rem;
+    background-color: #fff;
+    border-radius: 100%;
+    animation: pulse 1.5s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes pulse{
+    0%{
+        box-shadow: 0 0 0 0 rgba(0,0,0,.7);
+    }
+    50%{
+        box-shadow: 0 0 0 50px rgba(0,0,0,0);
+    }
+    100%{
+        box-shadow: 0 0 0 0 rgba(0,0,0,0);
+    }
+}

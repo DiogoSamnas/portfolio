@@ -7,9 +7,12 @@ import "./home.css";
 function Home() {
     useEffect(() => {
         Aos.init({
-            duration: 1000,
-            offset: 0,
-            easing: 'ease-in-out',
+            duration: 300,
+            offset: 100,
+            once: true,
+            mirror:false,
+            easing: 'ease-in',
+            anchorPlacement: 'top-bottom',
         });
     }, []);
 

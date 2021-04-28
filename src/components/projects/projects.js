@@ -1,4 +1,4 @@
-import { Card, ProjectsCards } from "../";
+import {ProjectsCards } from "../";
 
 import "./projects.css";
 
