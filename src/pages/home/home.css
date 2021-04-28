@@ -1,0 +1,13 @@
+#home .main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+#home .about{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+#home .about-image{
+    width: 80%;
+}
