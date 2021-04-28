@@ -10,10 +10,10 @@ html {
 
 h1,h2,h3,h4,h5,h6,p,a,button{
     color: var(--text-dark) !important;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 h1,h2,h3,h4,h5,h6{
-    font-weight: 700;
+    font-weight: 900;
 }
 p{
     font-weight: 400;

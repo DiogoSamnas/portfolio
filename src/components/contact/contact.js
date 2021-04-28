@@ -9,7 +9,7 @@ function Contact() {
                 <div className="row p-0 m-0">
                     <div className="col-12 col-lg-6">
                         <p>Estou procurando novas oportunidades agora, então minha caixa de entrada está sempre aberta. Se quiser fazer alguma  proposta, pergunta ou apenas dizer "oi", farei o possível para entrar em contato!</p>
-                        <a href="mailto:diogo.sam.nascimento@gmail.com"><button className="btn btn-dark mt-5">Entrar em contato</button></a>
+                        <a href="mailto:diogo.sam.nascimento@gmail.com"><button className="btn btn-dark px-4 mt-5">Enviar email</button></a>
                     </div>
                     <div className="col">
                     </div>
