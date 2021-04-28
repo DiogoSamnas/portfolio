@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 :root{
     --text-dark: #2E2132;
     --text-extra-dark: #1c131f;
@@ -13,13 +16,24 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 700;
 }
 p{
+    font-weight: 400;
     margin: 0;
 }
 .align-items-center{
     align-items: center;
 }
 
+.z-1{
+    z-index: 1100;
+}
+
 /* BUTTONS */
+
+.pointer{
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .btn{
     transition: all ease-in-out .3s;
 }
@@ -47,11 +61,10 @@ p{
     height: 6px;
    }
    ::-webkit-scrollbar-thumb {
-    background: #bfb7c2;
-    border-radius: 15px;
+    background: #46364e;
    }
    ::-webkit-scrollbar-thumb:hover{
-    background: #9f98a1;
+    background: #2f2136;
    }
    ::-webkit-scrollbar-track{
     background: #ffffff;

@@ -2,7 +2,7 @@
 #links .bar{
     height: 20vh;
     width: 1px;
-    background-color: var(--text-extra-dark);
+    background-color: #484848;
 }
 #links .social{
     position: fixed;
@@ -31,4 +31,23 @@
 #links .email-text{
     writing-mode: vertical-rl;
     text-orientation: mixed;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all ease-in-out .3s;
+    color: #484848 !important;
+}
+#links .email-text:hover{
+    transform: translateY(-5px);
+    color: #65187D !important;
+}
+#links .link{
+    cursor: pointer;
+    transition: all ease-in-out .3s;
+    font-size: 1.3rem;
+    color: #484848;
+}
+#links .link:hover{
+    transform: translateY(-5px);
+    color: #65187D !important;
 }

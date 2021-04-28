@@ -1,0 +1,6 @@
+#projects .card{
+    overflow: hidden;
+}
+#projects .card img{
+    width: 100%;
+}

@@ -1,0 +1,50 @@
+[
+    {
+        "id":"1",
+        "title":"(Português) Profissionais do turismo recebem cheques do Pró-Turismo",
+        "description":"O Governo do RN por meio da Agência de Fomento (AGN) entregou, nesta terça-feira (08), 64 cheques a empreendedores formais e informais dos setores de turismo, comércio e serviços, de sete municípios potiguares. ",
+        "image":"img/courses/noticia04.jpg",
+        "link":"http://setur.rn.gov.br/?p=7363",
+        "src":"setur-rn"
+    },
+    {
+        "id":"2",
+        "title":"Nordeste lidera preferência de brasileiros para viagens no verão, diz CVC",
+        "description":"A CVC revelou quais são osdestinos preferidos por seus clientes para curtir a alta temporada de verão no Brasil. De acordo com a operadora, os destinos de praia lideram preferência dos brasileiros com a chegada da estação mais quente do ano junto à maior operadora do País.",
+        "image":"img/courses/noticia05.jpg",
+        "link":"https://www.abihrn.com.br/2020/10/20/nordeste-lidera-preferencia-de-brasileiros-para-viagens-no-verao-diz-cvc/",
+        "src":"abih-rn"
+    },
+    {
+        "id":"3",
+        "title":"ABIH-RN registra previsão de 85% de ocupação para o feriadão",
+        "description":"Com a abertura considerável da maior parte dos estabelecimentos hoteleiros e turísticos no Rio Grande do Norte, a Associação Brasileira da Indústria de Hotéis do RN (ABIH-RN) realizou um levantamento com seus associados para prever o nível de ocupação durante o feriado[...]",
+        "image":"img/courses/noticia06.jpg",
+        "link":"https://www.abihrn.com.br/2020/10/08/abih-rn-registra-previsao-de-85-de-ocupacao-para-o-feriadao/",
+        "src":"abih-rn"
+    },
+    {
+        "id":"4",
+        "title":"RN prorroga a redução do ICMS dos meios de hospedagem até o fim de 2021",
+        "description":"Buscando reduzir os impactos econômicos causados pela pandemia ao setor turístico, o Governo do Rio Grande do Norte anunciou outra medida importante: a redução do ICMS da energia elétrica para os meios de hospedagem, de 25% para 12%, prorrogada até dezembro de 2021.",
+        "image":"img/courses/noticia07.jpg",
+        "link":"https://www.abihrn.com.br/2020/10/14/rn-prorroga-a-reducao-do-icms-dos-meios-de-hospedagem-ate-o-fim-de-2021/",
+        "src":"abih-rn"
+    },
+    {
+        "id":"5",
+        "title":"Natal (RN) é o destino preferido dos viajantes",
+        "description":"A campanha de retomada das viagens nacionais realizada pela CVC aponta o Rio Grande do Norte como o destino preferido dos clientes que optam por viajar para destinos de praia na região Nordeste. A capital Natal teve amelhor performance em vendas no período da campanha, ocupando o topo do ranking. ",
+        "image":"img/courses/noticia08.jpg",
+        "link":"https://www.abihrn.com.br/2020/10/05/natal-rn-e-o-destino-preferido-dos-viajantes/",
+        "src":"abih-rn"
+    },
+    {
+        "id":"6",
+        "title":"Governo autoriza reinício das obras de recuperação do Forte dos Reis Magos",
+        "description":"A professora Fátima Bezerra assinou ordem de retomada e destacou o empenho dos órgãos de Governo para destravar a reforma da Fortaleza, importante equipamento turístico e histórico do RN",
+        "image":"img/courses/noticia09.jpeg",
+        "link":"https://www.abihrn.com.br/2020/10/05/governo-autoriza-reinicio-das-obras-de-recuperacao-do-forte-dos-reis-magos/",
+        "src":"abih-rn"
+    }
+]
