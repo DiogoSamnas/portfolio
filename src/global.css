@@ -3,6 +3,7 @@ html {
 }
 :root{
     --text-dark: #2E2132;
+    --text-dark-muted: #A99AAD;
     --text-dark-hover: #8B33A6;
     --text-extra-dark: #1c131f;
     --text-light: #fff;

@@ -2,6 +2,25 @@
     overflow: hidden;
     margin-top: 8rem;
 }
+#projects .card .options li{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    border-radius: 100%;
+    border: solid 2px var(--text-dark);
+    color: var(--text-dark);
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out .3s;
+    cursor: pointer;
+}
+#projects .card .options li:hover{
+    transform: translateY(-5px);
+    border: solid 2px var(--text-dark-hover);
+    color: var(--text-dark-hover);
+}
 #projects .card:nth-child(0n+2){
     margin-top: 0px !important;
 }
@@ -15,6 +34,17 @@
 }
 @media (min-width: 768px) {
     #projects .card img{
-        height: 35vmax;
+        width: 100%;
+        height: 30rem;
+        object-fit: cover;
+    }
+}
+@media (min-width: 998px) {
+    #projects .card img{
+        height: 25em;
+        object-fit: cover;
+    }
+    #projects .card{
+        height: 25em;
     }
 }
