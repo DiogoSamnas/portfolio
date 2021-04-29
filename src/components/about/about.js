@@ -5,7 +5,7 @@ function About() {
     return (
         <div id="about" data-aos="fade-left">
             <div className="row p-0 m-0">
-                <div className="col-12 mx-0 py-5 d-flex align-items-center">
+                <div className="d-flex mt-5 mb-3">
                     <h1 className="me-4">Sobre mim</h1>
                 </div>
                 <div className="col-12 col-lg-6">
@@ -22,7 +22,7 @@ function About() {
                         <li>Github</li>
                     </ul>
                 </div>
-                <div className="col-12 col-lg-6 justify-content-center align-items-center">
+                <div className="col d-flex justify-content-center align-items-center">
                     <img className="about-image" src={Logo} alt="Diogo Santos" />
                 </div>
             </div>

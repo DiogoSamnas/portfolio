@@ -14,21 +14,7 @@
     flex-direction: row-reverse;
 }
 @media (min-width: 768px) {
-    #projects .card-text{
-        background-color: #fff;
-        box-shadow: 4px 4px 24px rgba(0,0,0,.06);
-        width: 120%;
-        transform: translateX(-20%);
-    } 
-    #projects .card:nth-child(2n+1) .card-text{
-        transform: translateX(0%);
-    } 
     #projects .card img{
-        height: 16rem;
-    }
-}
-@media (min-width: 992px) { 
-    #projects .card img{
-        height: 22rem;
+        height: 35vmax;
     }
 }

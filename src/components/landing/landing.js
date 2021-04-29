@@ -4,7 +4,7 @@ function Landing() {
     return (
         <div id="landing" data-aos="slide-right">
             <div className="row p-0 m-0">
-                <div className="col-6 mx-0">
+                <div className="col-12 col-md-9 col-lg-6 mx-0">
                     <h6>Oi, meu nome é</h6>
                     <h1>Diogo Santos.</h1>
                     <h1>Desenvolvedor Web.</h1>

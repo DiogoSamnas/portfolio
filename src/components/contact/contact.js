@@ -3,7 +3,7 @@ function Contact() {
     return (
         <div id="contact" data-aos="fade-left" className="pt-5">
             <div className="row p-0 m-0">
-                <div className="d-flex my-5 align-items-center">
+                <div className="d-flex mt-5 mb-3">
                     <h1 className="me-4">Entrar em contato</h1>
                 </div>
                 <div className="row p-0 m-0">
