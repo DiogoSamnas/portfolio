@@ -10,14 +10,14 @@ function Home() {
             duration: 300,
             offset: 100,
             once: true,
-            mirror:false,
+            mirror: false,
             easing: 'ease-in',
             anchorPlacement: 'top-bottom',
         });
     }, []);
 
     return (
-        <div id="home" className="container p-0 px-lg-5">
+        <div id="home" className="container p-0">
             <Landing />
             <About />
             <Projects />

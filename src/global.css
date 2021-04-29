@@ -3,6 +3,7 @@ html {
 }
 :root{
     --text-dark: #2E2132;
+    --text-dark-hover: #8B33A6;
     --text-extra-dark: #1c131f;
     --text-light: #fff;
     --primary: #6D2EBF;
@@ -15,9 +16,16 @@ h1,h2,h3,h4,h5,h6,p,a,button{
 h1,h2,h3,h4,h5,h6{
     font-weight: 900;
 }
+h1{
+    font-size: 300%;
+}
 p{
+    font-size: 110%;
     font-weight: 400;
     margin: 0;
+}
+z-1{
+    z-index: 1000 !important;
 }
 .align-items-center{
     align-items: center;

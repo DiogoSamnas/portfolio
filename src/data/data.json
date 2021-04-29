@@ -10,7 +10,7 @@
         "host_url":"https://menota-web.vercel.app"
     },
     {
-        "id":"1",
+        "id":"2",
         "title":"Menota Landing page",
         "text":"Landing page do me.nota, aplicativo de notas similar ao keep, evernote e notion",
         "techs":["React.js","Bootstrap","Github","Undraw","Figma"],

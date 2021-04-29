@@ -3,7 +3,7 @@ import Logo from '../../svg/diogo.svg';
 
 function About() {
     return (
-        <div id="about" data-aos="fade-left" className="about">
+        <div id="about" data-aos="fade-left">
             <div className="row p-0 m-0">
                 <div className="col-12 mx-0 py-5 d-flex align-items-center">
                     <h1 className="me-4">Sobre mim</h1>
