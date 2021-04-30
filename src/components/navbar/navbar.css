@@ -14,6 +14,9 @@
     cursor: pointer;
     position: relative;
 }
+#navbar .nav-link span{
+    color: var(--text-dark-hover);
+}
 #navbar .nav-link::after{
     content: "";
     position: absolute;

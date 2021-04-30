@@ -8,6 +8,10 @@ html {
     --text-extra-dark: #1c131f;
     --text-light: #fff;
     --primary: #6D2EBF;
+    --github-color: #24292E;
+    --github-color-hover: #191D21;
+    --linkedin-color: #0A66C2;
+    --linkedin-color-hover: #045BB2;
 }
 
 h1,h2,h3,h4,h5,h6,p,a,button{
