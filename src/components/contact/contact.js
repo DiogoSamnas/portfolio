@@ -2,6 +2,7 @@ import "./contact.css";
 import gmailIcon from "../../svg/gmail.svg"
 import Fort from "../../image/fort.png"
 import { FiGithub, FiLinkedin, FiInstagram } from "react-icons/fi";
+import {AiOutlineBehance } from "react-icons/ai";
 function Contact() {
     return (
         <div id="contact">
@@ -18,6 +19,7 @@ function Contact() {
                     <div className="social nav flex-row w-100 px-5 justify-content-center align-baseline">
                         <a href="https://github.com/DiogoSamnas" rel="noreferrer" target="_blank"><FiGithub /></a>
                         <a href="https://www.instagram.com/diogoodiego/" rel="noreferrer" target="_blank"><FiInstagram /></a>
+                        <a href="https://www.behance.net/diogoodiego" rel="noreferrer" target="_blank"><AiOutlineBehance /></a>
                         <a href="https://www.linkedin.com/in/diogo-santos-b23ab31a0/" rel="noreferrer" target="_blank" ><FiLinkedin /></a>
                     </div>
                 </div>
