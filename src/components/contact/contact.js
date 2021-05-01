@@ -1,4 +1,5 @@
 import "./contact.css";
+import ReactTooltip from 'react-tooltip';
 import gmailIcon from "../../svg/gmail.svg"
 import Fort from "../../image/fort.png"
 import { FiGithub, FiLinkedin, FiInstagram } from "react-icons/fi";
@@ -17,10 +18,10 @@ function Contact() {
                             Email
                     </a>
                     <div className="social nav flex-row w-100 px-5 justify-content-center align-baseline">
-                        <a href="https://github.com/DiogoSamnas" rel="noreferrer" target="_blank"><FiGithub /></a>
-                        <a href="https://www.instagram.com/diogoodiego/" rel="noreferrer" target="_blank"><FiInstagram /></a>
-                        <a href="https://www.behance.net/diogoodiego" rel="noreferrer" target="_blank"><AiOutlineBehance /></a>
-                        <a href="https://www.linkedin.com/in/diogo-santos-b23ab31a0/" rel="noreferrer" target="_blank" ><FiLinkedin /></a>
+                        <a href="https://github.com/DiogoSamnas" rel="noreferrer" target="_blank" data-tip="Visitar perfil do Github"><FiGithub /></a>
+                        <a href="https://www.instagram.com/diogoodiego/" rel="noreferrer" target="_blank" data-tip="Visitar perfil do Instagram"><FiInstagram /></a>
+                        <a href="https://www.behance.net/diogoodiego" rel="noreferrer" target="_blank" data-tip="Visitar perfil do Behance"><AiOutlineBehance /></a>
+                        <a href="https://www.linkedin.com/in/diogo-santos-b23ab31a0/" rel="noreferrer" target="_blank" data-tip="Visitar perfil do LinkedIn"><FiLinkedin /></a>
                     </div>
                 </div>
                 <div className="col h-100 d-none d-lg-block contact-image position-relative" >
@@ -28,6 +29,7 @@ function Contact() {
                 </div>
 
             </div>
+            <ReactTooltip />
         </div>
     )
 };

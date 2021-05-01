@@ -12,7 +12,7 @@
     },
     {
         "id":"2",
-        "title":"Menota Landing page",
+        "title":"Menota - Landing page",
         "text":"Landing page do me.nota, aplicativo de notas similar ao keep, evernote e notion",
         "techs":["React.js","Bootstrap","Github","Undraw","Figma"],
         "image":"images/menota.png", 
@@ -52,6 +52,6 @@
         "color":"#FFA621",
         "figma_url":"https://www.figma.com/file/anwye7muuviDIDtklRGPME/me.nota-landing-page?node-id=1%3A3",
         "git_url":"https://github.com/DiogoSamnas/menota-web",
-        "host_url":"turismo-temp.vercel.app/"
+        "host_url":"https://turismo-temp.vercel.app/"
     }
 ]

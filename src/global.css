@@ -96,6 +96,7 @@ z-1{
 ::-webkit-scrollbar {
     width: 6px;
     height: 6px;
+    cursor: move;
    }
    ::-webkit-scrollbar-thumb {
     background: #46364e;

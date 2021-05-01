@@ -20,8 +20,8 @@ function Home() {
         <div id="home" className="container p-0 px-3 px-lg-5">
             <SideLinks />
             <Landing />
-            <About />
             <Projects />
+            <About />
             <Contact />
         </div>
     )
