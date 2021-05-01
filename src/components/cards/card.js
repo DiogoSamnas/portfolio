@@ -7,8 +7,9 @@ function Card(props) {
             <a href={props.item.host_url} rel="noreferrer" target="_blank">
                 <img className="w-100 p-5" style={{backgroundColor : props.item.color}} src={props.item.image} alt="..." />
             </a>
-        
-            <h4 className="card-title text-white px-4 py-3">{props.item.title}</h4>
+
+            <h5 className="title text-white position-absolute top-0 px-4 py-3">{props.item.title}</h5>
+            <p className="techs position-absolute bottom-0 px-4 py-3">{props.item.techs.map((tech) => <small key={tech} className="text-white me-3">{tech}</small>)}</p>
             <ReactTooltip />
         </div>
 

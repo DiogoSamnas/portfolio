@@ -3,6 +3,14 @@
     grid-template-columns: repeat(1,1fr);
     gap: 1rem;
 }
+#projects .techs{
+    opacity: 0;
+    transition: all ease-in .3s;
+}
+#projects .title{
+    opacity: 0;
+    transition: all ease-in .3s;
+}
 #projects .my-card{
     position: relative;
     transition: all ease-in .3s;
@@ -21,6 +29,12 @@
 #projects .my-card:hover img{
     transform: scale(.98);
     filter:brightness(70%);
+}
+#projects .my-card:hover .techs{
+    opacity: 1;
+}
+#projects .my-card:hover .title{
+    opacity: 1;
 }
 
 @media(min-width:768px){
