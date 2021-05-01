@@ -2,85 +2,13 @@
     display: flex;
     align-items: center;
 }
-#contact .slider{
-    overflow: hidden;
-    background-color: #f9f9f9;
-}
-#contact .slider img{
+#contact .contact-image img{
+    height: 100%;
     width: 100%;
-    height: 100vh;
-    object-fit: contain;
-}
-#contact h1 span{
-    color: var(--text-dark-hover) !important;
-    font-size: 80%;
-}
-#contact .btn{
-    display: flex;
-    justify-content: center;
+    object-fit: cover;
     align-items: center;
 }
-#contact .btn p{
-    font-size: 1.2rem;
-}
-#contact .btn svg{
-    font-size: 1.5rem;
-    margin-right: .5rem;
-}
-
-/* BTN INSTAGRAM */
-#contact .btn-email{
-    background-color: #fff;
-    border: solid 1px var(--text-dark);
-    color: var(--text-dark);
-}
-#contact .btn-email img{
-    width: 1.6rem;
-    margin-right: .5rem;
-}
-#contact .btn-email:hover{
-    border: solid 1px var(--text-extra-dark);
-    color: var(--text-extra-dark) !important;
-}
-#contact .btn-instagram{
-    background-color: #fff;
-    border: solid 1px var(--text-dark);
-    color: var(--text-dark);
-}
-#contact .btn-instagram:hover{
-    border: solid 1px var(--text-extra-dark);
-    color: var(--text-extra-dark) !important;
-}
-
-/* BTN GITHUB */
-#contact .btn-github{
-    background-color: var(--github-color);
-    border: solid 1px var(--github-color);
-    color: #fff !important;
-}
-#contact .btn-github p{
-    color: #fff !important;
-}
-
-#contact .btn-github:hover{
-    background-color: var(--github-color-hover);
-    border: solid 1px var(--github-color-hover);
-    color: #fff !important;
-}
-
-/* BTN LINKEDIN */
-#contact .btn-linkedin{
-    background-color: var(--linkedin-color);
-    border: solid 1px var(--linkedin-color);
-    color: #fff !important;
-}
-#contact .btn-linkedin p{
-    color: #fff !important;
-}
-
-
-#contact .btn-linkedin:hover{
-    background-color: var(--linkedin-color-hover);
-    border: solid 1px var(--linkedin-color-hover);
-    color: #fff !important;
+#contact .gmail-icon{
+    height: 1.2rem;
+    margin-right: 1rem;
 }
