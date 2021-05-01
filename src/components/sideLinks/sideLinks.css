@@ -1,0 +1,51 @@
+#profiles{
+    position: fixed;
+    bottom: 0;
+    left: 5vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-dark);
+}
+#profiles i{
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    transition: all ease-in .3s;
+}
+#profiles i:hover,#email p:hover {
+    color: var(--text-dark-hover) !important;
+    transform: translateY(-5px);
+}
+#email{
+    position: fixed;
+    bottom: 0;
+    right: 5vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-dark);
+}
+#email p{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    margin-bottom: 1.5rem;
+    transition: all ease-in .3s;
+    cursor: pointer;
+}
+#profiles::after, #email::after{
+    content: "";
+    height: 10vmax;
+    width: 1px;
+    background-color: var(--text-dark);
+}
+@media (min-width:1620px) {
+    #profiles{
+        left: 12%;
+    }
+    #email{
+        right: 12%;
+    }
+}

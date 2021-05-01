@@ -7,5 +7,6 @@ import Contact from "./contact/contact";
 import ProjectsCards from "./cards/projectsCards"
 import Card from "./cards/card"
 import Loading from "./loading/loading"
+import SideLinks from "./sideLinks/sideLinks";
 
-export { Navbar,Footer, Landing, About, Projects, Contact, ProjectsCards, Card, Loading };
+export { Navbar, Footer, Landing, About, Projects, Contact, ProjectsCards, Card, Loading, SideLinks };

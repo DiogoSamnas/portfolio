@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import Aos from "aos";
 
-import { Landing, About, Projects, Contact } from "../../components";
+import { Landing, About, Projects, Contact, SideLinks } from "../../components";
 import "./home.css";
 
 function Home() {
@@ -10,7 +10,7 @@ function Home() {
             duration: 300,
             offset: 100,
             once: true,
-            mirror:false,
+            mirror: false,
             easing: 'ease-in',
             anchorPlacement: 'top-bottom',
         });
@@ -18,6 +18,7 @@ function Home() {
 
     return (
         <div id="home" className="container p-0 px-3 px-lg-5">
+            <SideLinks />
             <Landing />
             <About />
             <Projects />
