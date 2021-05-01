@@ -8,13 +8,13 @@
     align-items: center;
     color: var(--text-dark);
 }
-#profiles i{
+#profiles a{
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
     cursor: pointer;
     transition: all ease-in .3s;
 }
-#profiles i:hover,#email p:hover {
+#profiles a:hover,#email p:hover {
     color: var(--text-dark-hover) !important;
     transform: translateY(-5px);
 }

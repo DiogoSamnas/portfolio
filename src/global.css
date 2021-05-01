@@ -13,6 +13,7 @@ html {
     --linkedin-color: #0A66C2;
     --linkedin-color-hover: #045BB2;
 }
+a{text-decoration: none !important;}
 
 h1,h2,h3,h4,h5,h6,p,a,button{
     color: var(--text-dark) !important;
