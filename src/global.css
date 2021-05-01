@@ -5,9 +5,9 @@ body{
     background-color: #fefefe;
 }
 :root{
-    --text-dark: #2E2132;
-    --text-dark-muted: #A99AAD;
-    --text-dark-hover: #8B33A6;
+    --text-dark: #3e3d3f;
+    --text-dark-muted: #757575;
+    --text-dark-hover: #1a181a;
     --text-extra-dark: #1c131f;
     --text-light: #fff;
     --primary: #6D2EBF;
