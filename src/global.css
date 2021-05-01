@@ -76,6 +76,21 @@ z-1{
     background-color: transparent !important;
     text-decoration: none !important;
 }
+
+.btn-underline::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--text-dark);
+    transition: all ease-in-out .3s;
+}
+.btn-underline:hover:after{
+    width: 100%;
+}
+
 /* SCROLL */
 
 ::-webkit-scrollbar {
