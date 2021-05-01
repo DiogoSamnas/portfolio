@@ -17,13 +17,13 @@ function Navbar() {
 
                 <ul className="nav">
                     <li className="nav-item ms-4">
-                        <Link to="about" smooth={true} className="nav-link px-2"><span className="me-2">01.</span>Sobre</Link>
+                        <Link to="about" smooth={true} className="nav-link px-2">Sobre</Link>
                     </li>
                     <li className="nav-item ms-4">
-                        <Link to="projects-title" smooth={true} className="nav-link px-2"><span className="me-2">02.</span>Projetos</Link>
+                        <Link to="projects-title" smooth={true} className="nav-link px-2">Projetos</Link>
                     </li>
                     <li className="nav-item ms-4">
-                        <Link to="contact" smooth={true} className="nav-link px-2"><span className="me-2">03.</span>Contato</Link>
+                        <Link to="contact" smooth={true} className="nav-link px-2">Contato</Link>
                     </li>
                 </ul>
                 
