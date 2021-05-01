@@ -1,6 +1,9 @@
 html {
     scroll-behavior: smooth;
 }
+body{
+    background-color: #fefefe;
+}
 :root{
     --text-dark: #2E2132;
     --text-dark-muted: #A99AAD;
@@ -17,10 +20,8 @@ a{text-decoration: none !important;}
 
 h1,h2,h3,h4,h5,h6,p,a,button{
     color: var(--text-dark) !important;
-    font-family: 'Roboto', sans-serif;
-}
-h1,h2,h3,h4,h5,h6{
-    font-weight: 900;
+    font-weight: 400;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 h1{
     font-size: 300%;

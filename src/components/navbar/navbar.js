@@ -20,7 +20,7 @@ function Navbar() {
                         <Link to="about" smooth={true} className="nav-link px-2"><span className="me-2">01.</span>Sobre</Link>
                     </li>
                     <li className="nav-item ms-4">
-                        <Link to="projects" smooth={true} className="nav-link px-2"><span className="me-2">02.</span>Projetos</Link>
+                        <Link to="projects-title" smooth={true} className="nav-link px-2"><span className="me-2">02.</span>Projetos</Link>
                     </li>
                     <li className="nav-item ms-4">
                         <Link to="contact" smooth={true} className="nav-link px-2"><span className="me-2">03.</span>Contato</Link>
