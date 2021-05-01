@@ -1,4 +1,3 @@
-import Menota from '../../image/menota.jpg';
 import ReactTooltip from 'react-tooltip';
 import "./card.css";
 
@@ -6,10 +5,10 @@ function Card(props) {
     return (
         <div class="my-card" data-aos="fade-up">
             <a href={props.item.host_url} rel="noreferrer" target="_blank">
-                <img className="w-100 p-5" style={{backgroundColor : "#f7f5f5"}} src={Menota} alt="..." />
+                <img className="w-100 p-5" style={{backgroundColor : props.item.color}} src={props.item.image} alt="..." />
             </a>
         
-            <h4 className="card-title text-white p-4">{props.item.title}</h4>
+            <h4 className="card-title text-white px-4 py-3">{props.item.title}</h4>
             <ReactTooltip />
         </div>
 

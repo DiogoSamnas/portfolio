@@ -16,7 +16,7 @@
     height: 100%;
     object-fit: scale-down;
     transition: all ease-in .3s;
-    filter:brightness(90%);
+    filter:brightness(100%);
 }
 #projects .my-card:hover img{
     transform: scale(.98);

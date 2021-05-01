@@ -1,52 +1,57 @@
 [
     {
         "id":"1",
-        "title":"Menota Landing page",
+        "title":"Plennus",
         "text":"Landing page do me.nota, aplicativo de notas similar ao keep, evernote e notion",
         "techs":["React.js","Bootstrap","Github","Undraw","Figma"],
-        "image":"https://menota-web.vercel.app",
+        "image":"images/plennus.png", 
+        "color":"#2C0243",
         "figma_url":"https://www.figma.com/file/anwye7muuviDIDtklRGPME/me.nota-landing-page?node-id=1%3A3",
         "git_url":"https://github.com/DiogoSamnas/menota-web",
-        "host_url":"https://menota-web.vercel.app"
+        "host_url":"https://www.figma.com/file/3MTbXIiWIWHOgKFH5vBKoB/Ui-Projects?node-id=34:0"
     },
     {
         "id":"2",
         "title":"Menota Landing page",
         "text":"Landing page do me.nota, aplicativo de notas similar ao keep, evernote e notion",
         "techs":["React.js","Bootstrap","Github","Undraw","Figma"],
-        "image":"https://menota-web.vercel.app",
-        "figma_url":"https://www.figma.com/file/anwye7muuviDIDtklRGPME/me.nota-landing-page?node-id=1%3A3",
-        "git_url":"https://github.com/DiogoSamnas/menota-web",
-        "host_url":"https://menota-web.vercel.app"
-    },    
-    {
-        "id":"3",
-        "title":"Menota Landing page",
-        "text":"Landing page do me.nota, aplicativo de notas similar ao keep, evernote e notion",
-        "techs":["React.js","Bootstrap","Github","Undraw","Figma"],
-        "image":"https://menota-web.vercel.app",
-        "figma_url":"https://www.figma.com/file/anwye7muuviDIDtklRGPME/me.nota-landing-page?node-id=1%3A3",
-        "git_url":"https://github.com/DiogoSamnas/menota-web",
-        "host_url":"https://menota-web.vercel.app"
-    },    
-    {
-        "id":"4",
-        "title":"Menota Landing page",
-        "text":"Landing page do me.nota, aplicativo de notas similar ao keep, evernote e notion",
-        "techs":["React.js","Bootstrap","Github","Undraw","Figma"],
-        "image":"https://menota-web.vercel.app",
+        "image":"images/menota.png", 
+        "color":"#9B3AC9",
         "figma_url":"https://www.figma.com/file/anwye7muuviDIDtklRGPME/me.nota-landing-page?node-id=1%3A3",
         "git_url":"https://github.com/DiogoSamnas/menota-web",
         "host_url":"https://menota-web.vercel.app"
     },
     {
-        "id":"5",
-        "title":"Menota Landing page",
+        "id":"3",
+        "title":"Quinna - login",
         "text":"Landing page do me.nota, aplicativo de notas similar ao keep, evernote e notion",
         "techs":["React.js","Bootstrap","Github","Undraw","Figma"],
-        "image":"https://menota-web.vercel.app",
+        "image":"images/quinna-login.png", 
+        "color":"#96D2D9",
         "figma_url":"https://www.figma.com/file/anwye7muuviDIDtklRGPME/me.nota-landing-page?node-id=1%3A3",
         "git_url":"https://github.com/DiogoSamnas/menota-web",
-        "host_url":"https://menota-web.vercel.app"
+        "host_url":"https://www.figma.com/file/3MTbXIiWIWHOgKFH5vBKoB/Ui-Projects?node-id=34:0"
+    },
+    {
+        "id":"4",
+        "title":"Quinna - create account",
+        "text":"Landing page do me.nota, aplicativo de notas similar ao keep, evernote e notion",
+        "techs":["React.js","Bootstrap","Github","Undraw","Figma"],
+        "image":"images/quinna-create.png", 
+        "color":"#96D2D9",
+        "figma_url":"https://www.figma.com/file/anwye7muuviDIDtklRGPME/me.nota-landing-page?node-id=1%3A3",
+        "git_url":"https://github.com/DiogoSamnas/menota-web",
+        "host_url":"https://www.figma.com/file/3MTbXIiWIWHOgKFH5vBKoB/Ui-Projects?node-id=34:0"
+    },
+    {
+        "id":"5",
+        "title":"Observatório do Turismo",
+        "text":"Landing page do me.nota, aplicativo de notas similar ao keep, evernote e notion",
+        "techs":["React.js","Bootstrap","Github","Undraw","Figma"],
+        "image":"images/observatorio.png", 
+        "color":"#FFA621",
+        "figma_url":"https://www.figma.com/file/anwye7muuviDIDtklRGPME/me.nota-landing-page?node-id=1%3A3",
+        "git_url":"https://github.com/DiogoSamnas/menota-web",
+        "host_url":"turismo-temp.vercel.app/"
     }
 ]
