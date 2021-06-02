@@ -36,6 +36,16 @@
 #projects .my-card:hover .title{
     opacity: 1;
 }
+#projects .more-cards{
+    cursor: default !important;
+}
+#projects .more-cards span{
+    color: var(--text-muted) !important;
+}
+#projects .more-cards span{
+    color: var(--text-muted) !important;
+}
+
 
 @media(min-width:768px){
     #projects{

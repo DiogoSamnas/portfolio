@@ -5,6 +5,7 @@ body{
     background-color: #fefefe;
 }
 :root{
+    --text-muted: #aaaaaa;
     --text-dark: #3e3d3f;
     --text-dark-muted: #757575;
     --text-dark-hover: #1a181a;
@@ -18,7 +19,7 @@ body{
 }
 a{text-decoration: none !important;}
 
-h1,h2,h3,h4,h5,h6,p,a,button{
+h1,h2,h3,h4,h5,h6,p,a,button,span{
     color: var(--text-dark) !important;
     font-weight: 400;
     font-family: 'Roboto Condensed', sans-serif;
