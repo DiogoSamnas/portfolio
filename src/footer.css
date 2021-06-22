@@ -21,7 +21,14 @@ footer .icons{
     flex-wrap: wrap;
     gap: 1.2rem;
 }
-footer a{
+footer .icons a{
+    text-decoration: none;
+    color: #fff;
+}
+footer .icons a:hover{
+    color: var(--secondary-color);
+}
+footer section > a{
     cursor: pointer;
     background: var(--primary-bg);
     color: var(--text-color);
@@ -34,7 +41,7 @@ footer a{
     margin-bottom: 3rem;
     transition: all ease-in-out .3s;
 }
-footer a:hover{
+footer section > a:hover{
     animation: up ease-in-out .4s;
 }
 

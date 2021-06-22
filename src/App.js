@@ -61,10 +61,10 @@ function Footer() {
                 <LinkTo to="landing" smooth={true}><FiArrowUp /></LinkTo>
                 <p>diogo.sam.nascimento@gmail.com</p>
                 <div className="icons">
-                    <FiLinkedin />
-                    <FiInstagram />
-                    <FiGithub />
-                    <FaBehance />
+                    <a href="https://www.linkedin.com/in/diogo-santos-b23ab31a0/" rel="noreferrer" target="_blank"><FiLinkedin /></a>
+                    <a href="https://www.instagram.com/diogoodiego/" rel="noreferrer" target="_blank"><FiInstagram /></a>
+                    <a href="https://github.com/DiogoSamnas" rel="noreferrer" target="_blank"><FiGithub /></a>
+                    <a href="https://www.behance.net/diogoodiego" rel="noreferrer" target="_blank"><FaBehance /></a>
                 </div>
             </section>
         </footer>
