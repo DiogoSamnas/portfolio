@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './routes';
-import { Loading } from "./components";
+import App from './App';
+// import { Loading } from "./components";
 import './global.css'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Loading>
+    {/* <Loading> */}
       <App />
-    </Loading>
+    {/* </Loading> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

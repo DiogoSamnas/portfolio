@@ -1,12 +1,5 @@
-import Navbar from "./navbar/navbar";
-import Footer from "./footer/footer";
-import Landing from "./landing/landing";
-import About from "./about/about"
-import Projects from "./projects/projects";
-import Contact from "./contact/contact";
-import ProjectsCards from "./cards/projectsCards"
-import Card from "./cards/card"
+import Navbar from "./navbar";
 import Loading from "./loading/loading"
-import SideLinks from "./sideLinks/sideLinks";
+import ProjectCards from "./cards"
 
-export { Navbar, Footer, Landing, About, Projects, Contact, ProjectsCards, Card, Loading, SideLinks };
+export { Navbar, Loading, ProjectCards };

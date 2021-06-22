@@ -1,84 +1,93 @@
 [
     {
-        "id": "1",
-        "title": "Plennus",
-        "text": "Landing page do me.nota, aplicativo de notas similar ao keep, evernote e notion",
-        "techs": [
-            "React.js",
-            "Bootstrap",
-            "Github",
-            "Figma"
-        ],
-        "image": "images/plennus.png",
-        "color": "#2C0243",
-        "figma_url": "https://www.figma.com/file/anwye7muuviDIDtklRGPME/me.nota-landing-page?node-id=1%3A3",
-        "git_url": "https://github.com/DiogoSamnas/menota-web",
-        "host_url": "https://www.figma.com/file/CW3B3vXncbpAysJY5RVpUh/Plennus?node-id=1%3A89"
-    },
-    {
-        "id": "2",
-        "title": "Menota - Landing page",
-        "text": "Landing page do me.nota, aplicativo de notas similar ao keep, evernote e notion",
-        "techs": [
-            "React.js",
-            "Bootstrap",
-            "Github",
-            "Undraw",
-            "Figma"
-        ],
-        "image": "images/menota.png",
-        "color": "#9B3AC9",
-        "figma_url": "https://www.figma.com/file/anwye7muuviDIDtklRGPME/me.nota-landing-page?node-id=1%3A3",
-        "git_url": "https://github.com/DiogoSamnas/menota-web",
-        "host_url": "https://menota-web.vercel.app"
-    },
-    {
-        "id": "3",
-        "title": "Quinna - login",
-        "text": "Landing page do me.nota, aplicativo de notas similar ao keep, evernote e notion",
-        "techs": [
-            "React.js",
-            "Github",
-            "Undraw",
-            "Figma"
-        ],
-        "image": "images/quinna-login.png",
-        "color": "#96D2D9",
-        "figma_url": "https://www.figma.com/file/3UP4roRP17SvksT3zl4KVv/Quinna?node-id=0:1",
-        "git_url": "https://github.com/DiogoSamnas/quinna",
-        "host_url": "https://www.figma.com/file/3UP4roRP17SvksT3zl4KVv/Quinna?node-id=1%3A2"
-    },
-    {
-        "id": "4",
-        "title": "Quinna - create account",
-        "text": "Landing page do me.nota, aplicativo de notas similar ao keep, evernote e notion",
-        "techs": [
-            "React.js",
-            "Github",
-            "Undraw",
-            "Figma"
-        ],
-        "image": "images/quinna-create.png",
-        "color": "#96D2D9",
-        "figma_url": "https://www.figma.com/file/3UP4roRP17SvksT3zl4KVv/Quinna?node-id=0:1",
-        "git_url": "https://github.com/DiogoSamnas/quinna",
-        "host_url": "https://www.figma.com/file/3UP4roRP17SvksT3zl4KVv/Quinna?node-id=0%3A1"
-    },
-    {
-        "id": "5",
         "title": "Observatório do Turismo",
         "text": "Landing page do me.nota, aplicativo de notas similar ao keep, evernote e notion",
         "techs": [
-            "React.js",
+            "ReactJS",
             "Bootstrap",
-            "Github",
-            "Undraw",
-            "Figma"
+            "Github"
         ],
-        "image": "images/observatorio.png",
-        "color": "#FFA621",
+        "mockup": "mockups/observatorio.png",
+        "color": "#FCFBA2",
         "figma_url": "https://www.figma.com/file/anwye7muuviDIDtklRGPME/me.nota-landing-page?node-id=1%3A3",
         "git_url": "https://github.com/DiogoSamnas/menota-web",
+        "host_url": "https://turismo-temp.vercel.app/"
+    },
+    {
+        "title": "Quinna",
+        "text": "",
+        "techs": [
+            "Figma"
+        ],
+        "mockup": "mockups/quinna.png",
+        "color": "#FAEEDC",
+        "figma_url": "https://www.figma.com/file/anwye7muuviDIDtklRGPME/me.nota-landing-page?node-id=1%3A3",
+        "host_url": "https://turismo-temp.vercel.app/"
+    },
+    {
+        "title": "Notinha",
+        "text": "",
+        "techs": [
+            "Figma"
+        ],
+        "mockup": "mockups/notinha.png",
+        "color": "#F1F1FA",
+        "figma_url": "https://www.figma.com/file/anwye7muuviDIDtklRGPME/me.nota-landing-page?node-id=1%3A3",
+        "host_url": "https://turismo-temp.vercel.app/"
+    },
+    {
+        "title": "Plennus",
+        "text": "",
+        "techs": [
+            "Figma"
+        ],
+        "mockup": "mockups/plennus.png",
+        "color": "#ffac81",
+        "figma_url": "https://www.figma.com/file/anwye7muuviDIDtklRGPME/me.nota-landing-page?node-id=1%3A3",
+        "host_url": "https://turismo-temp.vercel.app/"
+    },
+    {
+        "title": "Player",
+        "text": "",
+        "techs": [
+            "Figma"
+        ],
+        "mockup": "mockups/player.png",
+        "color": "#BEE1E6",
+        "figma_url": "https://www.figma.com/file/anwye7muuviDIDtklRGPME/me.nota-landing-page?node-id=1%3A3",
+        "host_url": "https://turismo-temp.vercel.app/"
+    },
+    {
+        "title": "Menota",
+        "text": "",
+        "techs": [
+            "Figma"
+        ],
+        "mockup": "mockups/menota.png",
+        "color": "#c19ee0",
+        "figma_url": "https://www.figma.com/file/anwye7muuviDIDtklRGPME/me.nota-landing-page?node-id=1%3A3",
+        "host_url": "https://turismo-temp.vercel.app/"
+    },
+    {
+        "title": "Menota",
+        "text": "",
+        "techs": [
+            "Figma"
+        ],
+        "mockup": "mockups/menota.png",
+        "color": "#FFEF9F",
+        "figma_url": "https://www.figma.com/file/anwye7muuviDIDtklRGPME/me.nota-landing-page?node-id=1%3A3",
+        "host_url": "https://turismo-temp.vercel.app/"
+    },
+    {
+        "title": "Menota",
+        "text": "",
+        "techs": [
+            "Figma"
+        ],
+        "mockup": "mockups/menota.png",
+        "color": "#FFD6E0",
+        "figma_url": "https://www.figma.com/file/anwye7muuviDIDtklRGPME/me.nota-landing-page?node-id=1%3A3",
         "host_url": "https://turismo-temp.vercel.app/"
     }
 ]

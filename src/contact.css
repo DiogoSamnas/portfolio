@@ -1,0 +1,33 @@
+#contact{
+    width: 100%;
+    background: var(--tertiary-color);
+}
+#contact section{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8rem 0;
+    gap: 1.2rem;
+}
+#contact h1{
+    text-transform: uppercase;
+    color: var(--text-sec-color);
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+#contact p{
+    text-align: justify;
+    font-size: 1.1rem;
+}
+#contact button{
+    
+}
+
+@media (max-width:600px) {
+    #contact section{
+        width: 80%;
+    }
+}

@@ -1,0 +1,162 @@
+.projects{
+    width: var(--lg-width);
+    margin: auto;
+    padding: 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Title */
+.projects > h1{
+    text-transform: uppercase;
+    color: var(--text-sec-color);
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+    margin: 2rem auto;
+    font-size: 1.8rem;
+}
+.projects > h1::after{
+    content: "";
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    opacity: 1;
+    left: .5rem;
+    background: var(--secondary-color);
+    z-index: -1;
+    transition: all ease-in-out .3s;
+}
+
+/* Main Card */
+.projects .main-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 6rem 4rem;
+    overflow: hidden;
+    gap: 1rem;
+}
+.projects .main-card img{
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+}
+.projects .main-card .body{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.projects .main-card h1{
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.projects .main-card p{
+    font-size: 1.1rem;
+}
+.projects .main-card span{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.projects .main-card span p{
+    font-size: .9rem !important;
+    color: var(--text-sec-color);
+} 
+.projects .main-card button{
+    margin-top: 2rem;
+    margin-right: auto;
+}
+
+/* Grid */
+.projects .grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+.projects .grid .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    cursor: pointer;
+    overflow: hidden;
+}
+.projects .grid .card img{
+    image-rendering: crisp-edges;
+    width: 100%;
+    transition: all .3s;
+}
+.projects .grid .card img:hover{
+    transform: scale(1.05);
+}
+.projects .grid .card:nth-child(7n + 1),.projects .grid .card:nth-child(7n + 3),.projects .grid .card:nth-child(7n + 5){
+    grid-column: span 1;
+}
+.projects .grid .card:nth-child(7n + 2),.projects .grid .card:nth-child(7n + 4){
+    grid-column: span 1;
+    grid-row: span 2;
+}
+@media (max-width:600px) {
+    .projects .grid .card{
+        grid-column: span 3 !important;
+    }
+    .projects .main-card{
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .projects .main-card .body{
+        width: 100%;
+        text-align: justify !important;
+    }
+    .projects .main-card img{
+        width: 100%;
+    }
+    .projects .main-card button{
+        width: 100%;
+    }
+}
+
+/* Card */
+/* 
+.projects .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 6rem 4rem;
+    overflow: hidden;
+    gap: 1rem;
+
+}
+.projects img{
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+}
+.projects .card .body{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.projects .card h1{
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.projects .card p{
+    font-size: 1.1rem;
+}
+.projects span{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.projects span p{
+    font-size: .9rem !important;
+    color: var(--text-sec-color);
+} */
