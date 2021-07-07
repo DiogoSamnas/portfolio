@@ -1,5 +1,7 @@
 import { Navbar, ProjectCards } from "./components";
 import { Link as LinkTo } from 'react-scroll'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 import me from "./image/me.png";
 import cv from "./docs/cv.pdf";
@@ -33,7 +35,9 @@ function Landing() {
                     <p>Técnico em Informática para Internet (e de vez em quando ilustrador) apaixonado por desenvolvimento web, principalmente pelo front-end, sempre tentando construir interfaces agradáveis e aconchegantes para os usuários.</p>
                     <button className="btn btn-outline">Entrar em contato</button>
                 </div>
-                <img src={me} alt="" />
+                <div className="image">
+                    <LazyLoadImage src={me} effect="blur" alt={"Diogo Santos"} />
+                </div>
             </section>
         </main>
     )

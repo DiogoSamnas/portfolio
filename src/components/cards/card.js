@@ -1,14 +1,19 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 function Card({item}) {
     return (
         <div className="card" style={{ background: item.color }} >
-            <img src={item.mockup} alt="" />
+            <LazyLoadImage src={item.mockup} effect="blur" alt={item.title} />
         </div>
     )
 }
 function MainCard({item}){
     return(
         <div className="main-card" style={{ background: item.color }} >
-            <img src={item.mockup} alt="" />
+            <div className="image">
+                <LazyLoadImage src={item.mockup} effect="blur" alt={item.title} />
+            </div>
             <div className="body">
                 <span>
                     {item.techs.map(tech => <p>{tech}</p>)}
