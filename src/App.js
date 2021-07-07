@@ -35,11 +35,7 @@ function Landing() {
                     <h1>Diogo Santos</h1>
                     <h2>UI designer e desenvolvedor</h2>
                     <p>Técnico em Informática para Internet (e de vez em quando ilustrador) apaixonado por desenvolvimento web, principalmente pelo front-end, sempre tentando construir interfaces agradáveis e aconchegantes para os usuários.</p>
-                    <LinkTo className="btn btn-outline" to="contact" smooth={true}>
-                        <button>
-                            Sobre mim        
-                        </button>
-                    </LinkTo>
+                    <button className="btn btn-outline" href="mailto:diogo.sam.nascimento@gmail.com">Entrar em contato</button>
                 </div>
                 <div className="image">
                     <LazyLoadImage src={me} effect="blur" alt={"Diogo Santos"} />
