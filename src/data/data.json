@@ -69,24 +69,24 @@
         "host_url": "https://turismo-temp.vercel.app/"
     },
     {
-        "title": "Menota",
+        "title": "Logo",
         "text": "",
         "techs": [
             "Figma"
         ],
-        "mockup": "mockups/menota.png",
-        "color": "#FFEF9F",
+        "mockup": "image/logo.jpg",
+        "color": "#E5E5E5",
         "figma_url": "https://www.figma.com/file/anwye7muuviDIDtklRGPME/me.nota-landing-page?node-id=1%3A3",
         "host_url": "https://turismo-temp.vercel.app/"
     },
     {
-        "title": "Menota",
+        "title": "Illustration",
         "text": "",
         "techs": [
             "Figma"
         ],
-        "mockup": "mockups/menota.png",
-        "color": "#FFD6E0",
+        "mockup": "image/ill.png",
+        "color": "#FAFAFA",
         "figma_url": "https://www.figma.com/file/anwye7muuviDIDtklRGPME/me.nota-landing-page?node-id=1%3A3",
         "host_url": "https://turismo-temp.vercel.app/"
     }
