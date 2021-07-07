@@ -4,6 +4,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
 import me from "./image/me.webp";
+import bg from "./image/bg.webp";
 import cv from "./docs/cv.pdf";
 
 import "./landing.css";
@@ -28,6 +29,7 @@ export default function App() {
 function Landing() {
     return (
         <main id="landing">
+            <LazyLoadImage src={bg} effect="blur" alt={"Background"} />
             <section>
                 <div className="info">
                     <h1>Diogo Santos</h1>
