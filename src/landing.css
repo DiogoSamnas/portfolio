@@ -1,5 +1,7 @@
 main{
-    background: var(--primary-bg);
+    background: url("./image/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     overflow: hidden;
 }
@@ -14,10 +16,10 @@ main section{
 }
 main .info{
     width: 50%;
-    padding: 2rem 0rem;
+    padding: 4rem 0rem;
 }
 main img{
-    width: 30%;
+    width: 32%;
     margin-top: auto;
     object-fit: contain;
     object-position: bottom;
