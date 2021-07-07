@@ -7,7 +7,7 @@
             "Bootstrap",
             "Github"
         ],
-        "mockup": "mockups/observatorio.png",
+        "mockup": "mockups/observatorio.webp",
         "color": "#FCFBA2",
         "figma_url": "https://www.figma.com/file/anwye7muuviDIDtklRGPME/me.nota-landing-page?node-id=1%3A3",
         "git_url": "https://github.com/DiogoSamnas/menota-web",
@@ -19,7 +19,7 @@
         "techs": [
             "Figma"
         ],
-        "mockup": "mockups/quinna.png",
+        "mockup": "mockups/quinna.webp",
         "color": "#FAEEDC",
         "figma_url": "https://www.figma.com/file/anwye7muuviDIDtklRGPME/me.nota-landing-page?node-id=1%3A3",
         "host_url": "https://turismo-temp.vercel.app/"
@@ -30,7 +30,7 @@
         "techs": [
             "Figma"
         ],
-        "mockup": "mockups/notinha.png",
+        "mockup": "mockups/notinha.webp",
         "color": "#F1F1FA",
         "figma_url": "https://www.figma.com/file/anwye7muuviDIDtklRGPME/me.nota-landing-page?node-id=1%3A3",
         "host_url": "https://turismo-temp.vercel.app/"
@@ -41,7 +41,7 @@
         "techs": [
             "Figma"
         ],
-        "mockup": "mockups/plennus.png",
+        "mockup": "mockups/plennus.webp",
         "color": "#ffac81",
         "figma_url": "https://www.figma.com/file/anwye7muuviDIDtklRGPME/me.nota-landing-page?node-id=1%3A3",
         "host_url": "https://turismo-temp.vercel.app/"
@@ -52,7 +52,7 @@
         "techs": [
             "Figma"
         ],
-        "mockup": "mockups/player.png",
+        "mockup": "mockups/player.webp",
         "color": "#BEE1E6",
         "figma_url": "https://www.figma.com/file/anwye7muuviDIDtklRGPME/me.nota-landing-page?node-id=1%3A3",
         "host_url": "https://turismo-temp.vercel.app/"
@@ -63,7 +63,7 @@
         "techs": [
             "Figma"
         ],
-        "mockup": "mockups/menota.png",
+        "mockup": "mockups/menota.webp",
         "color": "#c19ee0",
         "figma_url": "https://www.figma.com/file/anwye7muuviDIDtklRGPME/me.nota-landing-page?node-id=1%3A3",
         "host_url": "https://turismo-temp.vercel.app/"
@@ -74,7 +74,7 @@
         "techs": [
             "Figma"
         ],
-        "mockup": "images/logo.jpg",
+        "mockup": "images/logo.webp",
         "color": "#E5E5E5",
         "figma_url": "https://www.figma.com/file/anwye7muuviDIDtklRGPME/me.nota-landing-page?node-id=1%3A3",
         "host_url": "https://turismo-temp.vercel.app/"
@@ -85,7 +85,7 @@
         "techs": [
             "Figma"
         ],
-        "mockup": "images/ill.png",
+        "mockup": "images/ill.webp",
         "color": "#FAFAFA",
         "figma_url": "https://www.figma.com/file/anwye7muuviDIDtklRGPME/me.nota-landing-page?node-id=1%3A3",
         "host_url": "https://turismo-temp.vercel.app/"

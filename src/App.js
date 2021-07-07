@@ -3,7 +3,7 @@ import { Link as LinkTo } from 'react-scroll'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
-import me from "./image/me.png";
+import me from "./image/me.webp";
 import cv from "./docs/cv.pdf";
 
 import "./landing.css";
