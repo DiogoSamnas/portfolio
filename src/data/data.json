@@ -1,7 +1,7 @@
 [
     {
         "title": "Observatório do Turismo",
-        "text": "Landing page do me.nota, aplicativo de notas similar ao keep, evernote e notion",
+        "text": "O Portal do turismo do RN,uma ferramenta para centralizar dados do turismo regional para viabilizar formas de observar, estudar e pesquisar a economia do turismo com dados captados por meio de Web Scraping.",
         "techs": [
             "ReactJS",
             "Bootstrap",
