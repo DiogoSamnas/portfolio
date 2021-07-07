@@ -23,6 +23,7 @@ main .image{
     margin-top: auto;
     object-fit: contain;
     object-position: bottom;
+    filter: saturate(72%);
 }
 main img{
     width: 100%;
