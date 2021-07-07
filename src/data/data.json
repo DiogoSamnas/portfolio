@@ -74,7 +74,7 @@
         "techs": [
             "Figma"
         ],
-        "mockup": "image/logo.jpg",
+        "mockup": "images/logo.jpg",
         "color": "#E5E5E5",
         "figma_url": "https://www.figma.com/file/anwye7muuviDIDtklRGPME/me.nota-landing-page?node-id=1%3A3",
         "host_url": "https://turismo-temp.vercel.app/"
@@ -85,7 +85,7 @@
         "techs": [
             "Figma"
         ],
-        "mockup": "image/ill.png",
+        "mockup": "images/ill.png",
         "color": "#FAFAFA",
         "figma_url": "https://www.figma.com/file/anwye7muuviDIDtklRGPME/me.nota-landing-page?node-id=1%3A3",
         "host_url": "https://turismo-temp.vercel.app/"
