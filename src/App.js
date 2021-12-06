@@ -39,9 +39,6 @@ function Landing() {
                         <button className="btn btn-outline">Entrar em contato</button>
                     </a>
                 </div>
-                <div className="image">
-                    <LazyLoadImage src={me} effect="blur" alt={"Diogo Santos"} />
-                </div>
             </section>
         </main>
     )
